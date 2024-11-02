@@ -127,6 +127,32 @@ ul {
 .pigTile:hover {
   transform: scale(1.05);
 }
+.hog-details {
+  position: fixed;
+  top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	z-index: 1000;
+	width: 300px;
+	text-align: center;
+}
+
+.hog-details button {
+	margin-top: 10px;
+	background-color: #f44336;
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
 
 
 .App-logo {
