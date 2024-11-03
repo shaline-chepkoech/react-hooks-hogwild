@@ -1,4 +1,4 @@
-# THE TRIBE PORTFOLIO
+# Phase-2 Week-1 Code Challenge - HogWild
 *****
 ### Author : Shaline Chepkoech November 3rd 2024
 ****
