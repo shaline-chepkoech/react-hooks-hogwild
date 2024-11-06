@@ -39,6 +39,11 @@ function App() {
 		setSelectedHog(null);
 	};
 
+	// Handle hiding a hog
+	const handleHideHog = (hogToHide) => {
+		setHogList((prevHogList) => prevHogList.filter((hog) => hog !== hogToHide));
+	};
+
 	// Handle adding a new hog
 	const handleAddHog = (newHog) => {
 		setHogList((prevHogList) => [...prevHogList, newHog]);
@@ -79,6 +84,7 @@ function App() {
 						key={hog.name} 
 						hog={hog} 
 						onHogClick={handleHogClick} 
+						onHideHog={handleHideHog}
 					/>
 				))}
 			</div>
